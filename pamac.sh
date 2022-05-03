@@ -18,13 +18,25 @@ pamacPackages=(
     "flatpak"
     "navi"
     "logo-ls"
+    "go"
+    "dropbox"
+    "code"
+    "slack-desktop"
+    "ansible"
+    "1password"
+    "gnome-passwordsafe"
+    "chromium-extension-ublock-origin"
+    "telegram-desktop"
+    "signal-desktop"
+    "tor-browser"
+    "chezmoi"
     )
 
-pamac install "${pamacPackages[@]}"
+/usr/bin/pamac install "${pamacPackages[@]}"
 
 if /usr/bin/gnome-shell --version
 then
 # Dump using `dconf watch /`
 echo "Configuring gnome"
-# gsettings set org.gnome.desktop.background show-desktop-icons false
+gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us+altgr-intl')]"
 fi
