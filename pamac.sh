@@ -17,6 +17,7 @@ pamacPackages=(
     "wl-clipboard"
     "flatpak"
     "navi"
+    "logo-ls"
     )
 
 pamac install "${pamacPackages[@]}"
