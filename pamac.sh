@@ -20,3 +20,10 @@ pamacPackages=(
     )
 
 pamac install "${pamacPackages[@]}"
+
+if /usr/bin/gnome-shell --version
+then
+# Dump using `dconf watch /`
+echo "Configuring gnome"
+# gsettings set org.gnome.desktop.background show-desktop-icons false
+fi
