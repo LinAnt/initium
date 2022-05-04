@@ -37,6 +37,7 @@ pamacPackages=(
     "gnome-shell-extension-clipboard-history"
     "shellcheck"
     "deno"
+    "zoom"
     )
 
 /usr/bin/pamac install "${pamacPackages[@]}"
