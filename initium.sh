@@ -42,6 +42,9 @@ pamacPackages=(
 
 /usr/bin/pamac install "${pamacPackages[@]}"
 
+# Flatpaks
+flatpak install org.videolan.VLC
+
 if /usr/bin/gnome-shell --version
 then
 # Dump using `dconf watch /`
