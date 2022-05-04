@@ -46,4 +46,12 @@ then
 # Dump using `dconf watch /`
 echo "Configuring gnome"
 gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us+altgr-intl')]"
+gsettings set org.gnome.shell enabled-extensions "['pamac-updates@manjaro.org', 'dash-to-dock@micxgx.gmail.com', 'appindicatorsupport@rgcjonas.gmail.com', 'gnome-ui-tune@itstime.tech', 'x11gestures@joseexposito.github.io', 'pop-shell@system76.com', 'user-theme@gnome-shell-extensions.gcampax.github.com']"
+gsettings set org.gnome.desktop.interface enable-hot-corners false
+
+# Disable the shitty dock
+gsettings set org.gnome.shell.extensions.dash-to-dock autohide false
+gsettings set org.gnome.shell.extensions.dash-to-dock dock-fixed false
+gsettings set org.gnome.shell.extensions.dash-to-dock intellihide false
+
 fi
