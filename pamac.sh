@@ -55,3 +55,24 @@ gsettings set org.gnome.shell.extensions.dash-to-dock dock-fixed false
 gsettings set org.gnome.shell.extensions.dash-to-dock intellihide false
 
 fi
+
+git clone --depth=1 https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh || echo "Oh-my-zsh is already installed"
+git -C ~/.oh-my-zsh/custom/themes clone --depth=1 https://github.com/romkatv/powerlevel10k.git || echo "p10k is already installed"
+
+extlist=(
+ms-python.python
+vscodevim.vim
+eamodio.gitlens
+vscode-icons-team.vscode-icons
+github.github-vscode-theme
+esbenp.prettier-vscode
+davidanson.vscode-markdownlint
+golang.Go
+ms-kubernetes-tools.vscode-kubernetes-tools
+ms-azuretools.vscode-docker
+timonwong.shellcheck
+)
+
+for i in "${extlist[@]}"; do
+  code --install-extension "$i"
+done
