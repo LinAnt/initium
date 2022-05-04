@@ -4,6 +4,7 @@ set -e
 
 pamacPackages=(
     "tmux-plugin-manager"
+    "zsh"
     "neovim"
     "burpsuite"
     "chromium"
@@ -30,6 +31,12 @@ pamacPackages=(
     "signal-desktop"
     "tor-browser"
     "chezmoi"
+    "gnome-shell-extension-pop-shell"
+    "chromium-bypass-paywalls"
+    "chromium-bypass-paywalls-clean-git"
+    "gnome-shell-extension-clipboard-history"
+    "shellcheck"
+    "deno"
     )
 
 /usr/bin/pamac install "${pamacPackages[@]}"
