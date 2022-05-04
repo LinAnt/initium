@@ -85,5 +85,5 @@ timonwong.shellcheck
 )
 
 for i in "${extlist[@]}"; do
-  code --install-extension "$i"
+  code --install-extension "$i" --force
 done
