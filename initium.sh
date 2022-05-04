@@ -35,6 +35,7 @@ pamacPackages=(
     "chromium-bypass-paywalls"
     "chromium-bypass-paywalls-clean-git"
     "gnome-shell-extension-clipboard-history"
+    "gnome-shell-extension-audio-output-switcher-git"
     "shellcheck"
     "deno"
     "zoom"
