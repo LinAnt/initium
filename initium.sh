@@ -39,6 +39,7 @@ pamacPackages=(
     "shellcheck"
     "deno"
     "zoom"
+    "ghidra"
     )
 
 /usr/bin/pamac install "${pamacPackages[@]}"
