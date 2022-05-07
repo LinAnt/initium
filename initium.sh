@@ -40,6 +40,10 @@ pamacPackages=(
     "deno"
     "zoom"
     "ghidra"
+    "pwndbg"
+    "ropper"
+    "ropgadget"
+    "checksec"
     )
 
 /usr/bin/pamac install "${pamacPackages[@]}"
