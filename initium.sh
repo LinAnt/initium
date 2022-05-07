@@ -56,7 +56,7 @@ then
 # Dump using `dconf watch /`
 echo "Configuring gnome"
 gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us+altgr-intl')]"
-gsettings set org.gnome.shell enabled-extensions "['pamac-updates@manjaro.org', 'dash-to-dock@micxgx.gmail.com', 'appindicatorsupport@rgcjonas.gmail.com', 'gnome-ui-tune@itstime.tech', 'x11gestures@joseexposito.github.io', 'pop-shell@system76.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'audio-output-switcher@anduchs']"
+gsettings set org.gnome.shell enabled-extensions "['pamac-updates@manjaro.org', 'dash-to-dock@micxgx.gmail.com', 'appindicatorsupport@rgcjonas.gmail.com', 'gnome-ui-tune@itstime.tech', 'x11gestures@joseexposito.github.io', 'pop-shell@system76.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'audio-output-switcher@anduchs', 'clipboard-history@alexsaveau.dev']"
 gsettings set org.gnome.shell disabled-extensions "['x11gestures@joseexposito.github.io']"
 gsettings set org.gnome.desktop.interface enable-hot-corners false
 
