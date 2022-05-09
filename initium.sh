@@ -77,17 +77,18 @@ git clone --depth=1 https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh || echo 
 git -C ~/.oh-my-zsh/custom/themes clone --depth=1 https://github.com/romkatv/powerlevel10k.git || echo "p10k is already installed"
 
 extlist=(
-ms-python.python
-vscodevim.vim
-eamodio.gitlens
-vscode-icons-team.vscode-icons
-github.github-vscode-theme
-esbenp.prettier-vscode
-davidanson.vscode-markdownlint
-golang.Go
-ms-kubernetes-tools.vscode-kubernetes-tools
-ms-azuretools.vscode-docker
-timonwong.shellcheck
+"ms-python.python"
+"vscodevim.vim"
+"eamodio.gitlens"
+"vscode-icons-team.vscode-icons"
+"github.github-vscode-theme"
+"esbenp.prettier-vscode"
+"davidanson.vscode-markdownlint"
+"golang.Go"
+"ms-kubernetes-tools.vscode-kubernetes-tools"
+"ms-azuretools.vscode-docker"
+"timonwong.shellcheck"
+"EditorConfig.EditorConfig"
 )
 
 for i in "${extlist[@]}"; do
