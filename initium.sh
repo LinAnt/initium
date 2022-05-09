@@ -44,6 +44,7 @@ pamacPackages=(
     "ropper"
     "ropgadget"
     "checksec"
+    "rocketchat-client-bin"
     )
 
 /usr/bin/pamac install "${pamacPackages[@]}"
