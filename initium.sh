@@ -46,6 +46,9 @@ pamacPackages=(
     "checksec"
     "rocketchat-client-bin"
     "github-cli"
+    "etcher"
+    "xdg-desktop-portal-wlr"
+    "youtube-dl"
     )
 
 /usr/bin/pamac install "${pamacPackages[@]}"
