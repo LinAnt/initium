@@ -93,6 +93,8 @@ extlist=(
 "ms-azuretools.vscode-docker"
 "timonwong.shellcheck"
 "EditorConfig.EditorConfig"
+"hashicorp.terraform"
+"redhat.java"
 )
 
 for i in "${extlist[@]}"; do
