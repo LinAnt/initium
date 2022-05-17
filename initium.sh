@@ -51,6 +51,8 @@ pamacPackages=(
     "kustomize"
     "nmap"
     "masscan"
+    "plocate"
+    "seclists"
     "krew-bin"
     )
 
