@@ -6,7 +6,6 @@ pamacPackages=(
     "tmux-plugin-manager"
     "zsh"
     "neovim"
-    "burpsuite"
     "chromium"
     "docker"
     "docker-compose"
@@ -49,6 +48,8 @@ pamacPackages=(
     "etcher"
     "xdg-desktop-portal-wlr"
     "youtube-dl"
+    "nmap"
+    "masscan"
     )
 
 /usr/bin/pamac install "${pamacPackages[@]}"
