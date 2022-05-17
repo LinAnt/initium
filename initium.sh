@@ -48,8 +48,10 @@ pamacPackages=(
     "etcher"
     "xdg-desktop-portal-wlr"
     "youtube-dl"
+    "kustomize"
     "nmap"
     "masscan"
+    "krew-bin"
     )
 
 /usr/bin/pamac install "${pamacPackages[@]}"
