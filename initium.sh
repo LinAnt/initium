@@ -105,3 +105,22 @@ extlist=(
 for i in "${extlist[@]}"; do
   code --install-extension "$i" --force
 done
+
+
+# Install krew plugins
+
+krewPlugins=(
+    "deprecations"
+    "df-pv"
+    "doctor"
+    "istiolog"
+    "node-shell"
+    "prune-unused"
+    "sniff"
+    "unused-volumes"
+    "view-utilization"
+    "viewnode"
+    "view-secret"
+    )
+
+/usr/bin/kubectl krew install "${krewPlugins[@]}"
