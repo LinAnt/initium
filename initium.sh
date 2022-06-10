@@ -54,6 +54,7 @@ pamacPackages=(
     "youtube-dl"
     "zoom"
     "zsh"
+    "prettier"
     )
 
 /usr/bin/pamac install "${pamacPackages[@]}"
