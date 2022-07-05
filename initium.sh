@@ -55,6 +55,7 @@ pamacPackages=(
     "fluent-reader-bin"
     "zoom"
     "zsh"
+    "zoxide"
     "prettier"
     )
 
