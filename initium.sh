@@ -52,6 +52,7 @@ pamacPackages=(
     "wl-clipboard"
     "xdg-desktop-portal-wlr"
     "youtube-dl"
+    "fluent-reader-bin"
     "zoom"
     "zsh"
     "prettier"
