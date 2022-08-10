@@ -32,6 +32,7 @@ pamacPackages=(
     "kustomize"
     "logo-ls"
     "masscan"
+    "otf-monego-git"
     "navi"
     "neovim"
     "nerd-fonts-go-mono"
